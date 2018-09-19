@@ -1,0 +1,19 @@
+{
+    "name": "visumo/test",
+    "description": "Visumo Test Composer",
+    "authors": [
+        {
+            "name": "Ramon van den Bersselaar",
+            "email": "ramon@visumo.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+      "psr-0": {
+        "HelloWorld": "src/"
+      }
+    }
+}
